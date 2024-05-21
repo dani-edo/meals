@@ -18,6 +18,9 @@ class MealsScreen extends StatelessWidget {
       itemCount: meals.length, // harus diisi jika menggunakan ListView
       itemBuilder: (ctx, index) => Text(
         meals[index].title,
+        style: const TextStyle(
+          color: Colors.white,
+        ),
       ),
     );
 
